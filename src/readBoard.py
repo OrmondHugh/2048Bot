@@ -69,12 +69,3 @@ def readBoard():
 			board[y][x] = value
 			
 	return board
-
-if __name__ == '__main__':
-	currentBoard = readBoard()
-
-	for i in range(4):
-		for j in range(4):
-			print(currentBoard[i][j], end = ' ')
-			
-		print("\n")
