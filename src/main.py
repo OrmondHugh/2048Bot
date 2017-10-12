@@ -110,8 +110,6 @@ def performMove(state):
 			gui.typewrite(['left'])
 			
 if __name__ == '__main__':
-	
-	#print( utility.getUtility([[' ', ' ', ' ', ' '], [' ', 4, 16, 64], [' ', 2, 8, 16], [2, 4, 2, 4]], [[' ', 4, 16, 64], [' ', 2, 8, 16], [' ', ' ', 2, 4], [' ', 4, ' ', ' ']]))
 
 	while(True):
 
